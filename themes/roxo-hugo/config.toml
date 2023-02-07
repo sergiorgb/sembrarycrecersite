@@ -1,0 +1,111 @@
+baseURL       = "https://sembrarycrecer.org/"
+languageCode  = "es-CO"
+title         = "Sembrar y Crecer | Fundación"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Contactanos"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  favicon = true
+  # Meta data
+  description = "Sembrar y Crecer "
+  author = "Sergio Cuervo"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  fabform  = "https://fabform.io/f/USAg2Jl"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "Nombre"
+    placeholder_last_name         = "Apellido"
+    placeholder_email             = "Email"
+    placeholder_about_the_project = "Acerca de tu Propuesta"
+    send_message                  = "Enviar"
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Sembramos creatividad, cultivamos educación con Propósito."
+    tagline               = "Nosotros"
+
+  [params.texts]
+    enable    = true
+    title1     = "NUESTRA HISTORIA"
+    subtitle1  = "Este desafío se originó desde nuestra infancia, que como la de muchos niños en Colombia, crecimos en entornos de carencia, llenos de microviolencias, falta de oportunidades y contra todo pronóstico, supimos aprovechar cada oportunidad, por mínima que fuera y hemos, a lo largo de nuestras vidas, llevado luz, esperanza y resiliencia a muchas familias y niños; demostrando a trafevés de nuestras propias vivencias, que se puede tener éxito y prosperidad, por medio del autoaprendizaje y que este puede ser tan efectivo como las aulas de clases."
+    title2    = "NUESTRO PROPÓSITO"
+    subtitle2 = "Nuestro gran propósito, es empoderar a nuestros niños, diseñando con ellos rutas vocacionales efectivas, que los lleven a identificar sus habilidades y que por medio de el autoaprendizaje, puedan desarrollar su pasión y volverla sostenible."
+    title3    = "NUESTRA PROYECCIÓN"
+    subtitle3 = "Planeamos crear rutas de autoeducación innovadoras y disruptivas, capaces de identificar y fortalecer las habilidades subvaloradas de nuestro niños y que ellos crean en su potencial."
+
+  [params.call_to_action]
+    enable              = false
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Información de contacto"
+      address = "Vereda San Andres, La Mesa, Cundinamarca"
+      phone   = "310-556-6599"
+      email   = "sembrarycrecerong@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Redes Sociales"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "LinkedIn"
+          url  = "#"
+
