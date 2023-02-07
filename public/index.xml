@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sembrar y Crecer | Fundación</title>
+    <link>https://sembrarycrecer.org/</link>
+    <description>Recent content on Sembrar y Crecer | Fundación</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-CO</language>
+    <lastBuildDate>Tue, 24 Dec 2019 13:45:06 +0600</lastBuildDate><atom:link href="https://sembrarycrecer.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ejemplo</title>
+      <link>https://sembrarycrecer.org/blog/design-inspiration-the-best-projects-from-december/</link>
+      <pubDate>Tue, 24 Dec 2019 13:45:06 +0600</pubDate>
+      
+      <guid>https://sembrarycrecer.org/blog/design-inspiration-the-best-projects-from-december/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
