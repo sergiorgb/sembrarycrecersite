@@ -1,42 +1,42 @@
 {{ with .Site.Params.texts }}
   {{ if .enable }}
-
-
   <section class="site-project" id="project">
     <div class="container">
-      <div class="row text-center">
-    <section class="hero-area bg-white">
-  <div class="container">
-
-
-<!-- spaggeti
-   <div class="row text-center">
-      <div class="col-6 my-auto">
-        <h1 class="text-primary font-tertiary">Image text </h1>
-      </div>
-      <div class="col-6 mobile-img">
-        <img src="https://dummyimage.com/300" class="img-fluid" alt="mobile screen">
-      </div>
-    </div>
--->
-    <div class="section-title">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
             <h2>{{ .title1 }}</h2>
-    </div>
-   <div class="row text-center">
-      <div class="col-6 my-auto">
-        <p class="selection-title">{{ .subtitle1 }}</p>
-      </div>
-      <div class="col-6 mobile-img">
-        <img src="/images/index/1.jpg" class="img-fluid" alt="mobile screen">
-      </div>
-    </div>
+            <div class="section-title">
+            <p>{{ .subtitle1 }}</p>
+            <img src="{{`/images/index/1.jpg` | absURL}}" class="img-fluid"s>
+            </div>
 
+          </div>
 
-
+          <div class="section-title">
+            <h2>{{ .title2 }}</h2>
+            <p>{{ .subtitle2 }}</p>
+          </div>
+          <div class="section-title">
+            <h2>{{ .title3 }}</h2>
+            <p>{{ .subtitle3 }}</p>
+          </div>
+          <div class="section-title">
+            <h2>{{ .title4 }}</h2>
+            <p>{{ .subtitle4 }}</p>
+          </div>
+        </div>
         {{ end }}
-        
+
       </div>
     </div>
-  </section>
   </section>
   {{ end }}
+
+        <div class="col-lg-6 col-md-6">
+          <h1 class="text-primary font-tertiary">{{   site.Data.homepage.banner1.title | safeHTML }}</h1>
+          </div>
+
+        <div class="col-lg-6 col-md-6 mobile-img">
+          <img src="{{`images/winningScreen3.png` | absURL}}" class="img-fluid" alt="mobile screen">
+        </div>
