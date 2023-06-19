@@ -31,7 +31,7 @@ summarylength = 25
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  fabform  = "https://fabform.io/f/USAg2Jl"
+  fabform  = "https://fabform.io/f/A2BntgU"
 
   # Contact Form
   [params.contactForm]
@@ -87,7 +87,7 @@ summarylength = 25
       title   = "Información de contacto"
       address = "Vereda San Andres, La Mesa, Cundinamarca"
       phone   = "310-556-6599"
-      email   = "sembrarycrecerong@gmail.com"
+      email   = "Sembrarycrecer1@gmail.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
@@ -102,11 +102,7 @@ summarylength = 25
         title   = "Redes Sociales"
         [[params.footer.social.link]]
           name = "Facebook"
-          url  = "#"
+          url  = "https://www.facebook.com/profile.php?id=100090311177963&mibextid=ZbWKwL"
         [[params.footer.social.link]]
           name = "Instagram"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "LinkedIn"
-          url  = "#"
-
+          url  = "https://instagram.com/sembrarycrecer?igshid=MzRlODBiNWFlZA=="
