@@ -39,6 +39,7 @@ summarylength = 25
     placeholder_last_name         = "Apellido"
     placeholder_email             = "Email"
     placeholder_about_the_project = "Acerca de tu Propuesta"
+    placeholder_phone             = "Telefono"
     send_message                  = "Enviar"
 
     [[params.contactForm.projectType]]

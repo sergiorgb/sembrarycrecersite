@@ -22,10 +22,17 @@
                 <input type="email" class="form-control" name="email" id="email" placeholder="{{ .Site.Params.contactForm.placeholder_email }}" required>
               </div>
               <div class="col-lg-6">
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="{{ .Site.Params.contactForm.placeholder_phone }}" required>
+              </div>
+              <div class="col-lg-6">
               </div>
               <div class="col-12">
                 <textarea class="form-control" id="aboutProject" name="about-project" rows="6" placeholder="{{ .Site.Params.contactForm.placeholder_about_the_project }}"></textarea>
               </div>
+              <p class="abeas-data">Al enviar esta información inmediatamente aceptas los terminos de la ley 1581 de 2012 “AUTORIZACIÓN PARA EL TRATAMIENTO DE DATOS PERSONALES
+                LEY HABEAS DATA".</p>
+              </p>
+
               <div class="col-12">
                 <button formtarget="_blank" type="submit" class="btn btn-primary" id="contact-form-button">
                   <span class="btn-area">
