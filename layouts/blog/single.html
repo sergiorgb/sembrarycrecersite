@@ -8,7 +8,18 @@
           <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span> <br> <span>{{ .Params.author }}</span></p>
           <h2 class="blog-title">{{ .Title }}</h2>
           <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">
-          {{ .Content }}
+          <style>
+            .black {
+              color: #4b4b4b;
+              font-family:'Times New Roman', Times, serif;
+              font-size: 19px !important;
+            }
+          </style>
+            <div class="black">
+            {{ .Content }}
+            </div>
+
+          
         </article>
       </div>
     </div>
