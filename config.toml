@@ -65,9 +65,9 @@ googleAnalytics = "G-MBC1T5ET3Z"
   [params.texts]
     enable    = true
     title1     = "NUESTRA HISTORIA"
-    subtitle1  = "Este desafío se originó desde nuestra infancia, que como la de muchos niños en Colombia, crecimos en entornos de carencia, llenos de microviolencias, falta de oportunidades y contra todo pronóstico, supimos aprovechar cada oportunidad, por mínima que fuera y hemos, a lo largo de nuestras vidas, llevado luz, esperanza y resiliencia a muchas familias y niños; demostrando a trafevés de nuestras propias vivencias, que se puede tener éxito y prosperidad, por medio del autoaprendizaje y que este puede ser tan efectivo como las aulas de clases."
+    subtitle1  = "Este desafío se originó desde nuestra infancia, como la de muchos niños en Colombia crecimos en entornos de carencia, llenos de microviolencias y falta de oportunidades. Contra todo pronóstico supimos aprovechar cada oportunidad por mínima que fuera y hemos, a lo largo de nuestras vidas, llevado luz, esperanza y resiliencia a muchas familias y niños. Demostrando a través de nuestras propias vivencias, que se puede tener éxito y prosperidad, por medio del autoaprendizaje y que este puede ser tan efectivo como las aulas de clases."
     title2    = "NUESTRO PROPÓSITO"
-    subtitle2 = "Nuestro gran propósito, es empoderar a nuestros niños, diseñando con ellos rutas vocacionales efectivas, que los lleven a identificar sus habilidades y que por medio de el autoaprendizaje, puedan desarrollar su pasión y volverla sostenible."
+    subtitle2 = "Empoderar a nuestros niños diseñando con ellos rutas vocacionales efectivas, que los lleven a identificar sus habilidades y que, por medio del autoaprendizaje, puedan desarrollar su pasión y volverla sostenible."
     title3    = "NUESTRA PROYECCIÓN"
     subtitle3 = "Planeamos crear rutas de autoeducación innovadoras y disruptivas, capaces de identificar y fortalecer las habilidades subvaloradas de nuestro niños y que ellos crean en su potencial."
 
