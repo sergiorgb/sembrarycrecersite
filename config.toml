@@ -17,6 +17,10 @@ googleAnalytics = "G-MBC1T5ET3Z"
     url     = "blog"
     weight  = 4
   [[menu.nav]]
+    name    = "Donar"
+    url     = "https://www.paypal.com/donate/?hosted_button_id=695DSZST7PS5G"
+    weight  = 4
+  [[menu.nav]]
     name    = "Contactanos"
     url     = "contact"
     weight  = 5
