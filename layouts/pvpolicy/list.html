@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<section class="site-blog details">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="site-blog-details">
+          <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span> <br> <span>{{ .Params.author }}</span></p>
+          <h2 class="blog-title">{{ .Title }}</h2>
+          <style>
+            .black {
+              color: black;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 20px !important;
+            }
+            p {
+                color: black;
+            }
+          </style>
+            <div class="black">
+            {{ .Content }}
+            </div>
+
+          
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="spacecontact"></div>
+
+{{ end }}
