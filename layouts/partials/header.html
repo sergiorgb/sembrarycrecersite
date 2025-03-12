@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg site-navigation">
+<nav class="navbar navbar-expand-lg site-navigation" style="margin-left: auto; margin-right: auto; text-align: ;">
   <div class="container">
     <a class="navbar" href="{{ .Site.BaseURL }}">
       <img src="{{ "images/logo.png" | absURL }}" alt="logo" />
@@ -35,12 +35,15 @@
           {{ else }}
           <li class="nav-item">
             <a class="nav-link" href="{{ .URL | absURL }}"
-              >{{ .Name }}</a
-            >
+              >{{ .Name }}</a>
           </li>
           {{ end }} 
         {{ end }}
-      </ul>
+        </ul>
     </div>
+
   </div>
 </nav>
+<div class="container navbar navbar-expand-lg " style="width: 100%; text-align: center;">
+<p style="color: black; margin-right: auto; margin-left: auto; margin-top: 130px;">Revisa nuestro nuevo reporte de sostenibilidad <a href="/PRESENTACION E INFORME DE GESTION 2024.pdf"> PRESENTACION E INFORME DE GESTION 2024</a></p>    
+</div>
