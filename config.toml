@@ -22,7 +22,7 @@ googleAnalytics = "G-MBC1T5ET3Z"
     weight  = 4
   [[menu.nav]]
     name    = "Donar"
-    url     = "https://www.paypal.com/donate/?hosted_button_id=695DSZST7PS5G"
+    url     = "https://www.paypal.com/ncp/payment/HRXDN58Q5JLRN"
     weight  = 4
   [[menu.nav]]
     name    = "Contactanos"
