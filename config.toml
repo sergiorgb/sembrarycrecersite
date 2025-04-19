@@ -71,11 +71,11 @@ googleAnalytics = "G-MBC1T5ET3Z"
   [params.texts]
     enable    = true
     title1     = "NUESTRA HISTORIA"
-    subtitle1  = "Aunque Llevamos más de 20 años impactando vidas en todo Colombia ya en 2023 formalizamos nuestra operación como SEMBRAR Y CRECER ONG, en las instalaciones de la finca Villa María ubicada en la vereda San Andrés de mesa Cundinamarca, impactando a CIENTOS de niños, adultos y adultos mayores, de todo el país, a través de nuestra escuela EmpoderArte Y nuestros planes de voluntariado."
+    subtitle1  = "Aunque llevamos más de 20 años impactando vidas en toda Colombia, en 2023 formalizamos nuestra operación como SEMBRAR Y CRECER ONG, en las instalaciones de la finca Villa María ubicada en la vereda San Andrés de Mesa, Cundinamarca, impactando a cientos de niños, adultos y adultos mayores de todo el país, a través de nuestra escuela EmpoderArte y nuestros planes de voluntariado."
     title2    = "NUESTRO PROPÓSITO"
-    subtitle2 = "Nuestro gran propósito  es seguir creando espacios sanos, competitivos y confiables para las personas impactadas, partiendo desde la ruta del arte y las nuevas tecnologías como forma inicial de potencializar, salvaguardar, Sanar y Empoderar a todos los niños, jóvenes  y adultos de todo el país, para que eleven su estandar habilidades y conocimientos."
+    subtitle2 = "Nuestro gran propósito es seguir creando espacios sanos, competitivos y confiables para las personas impactadas, partiendo desde la ruta del arte y las nuevas tecnologías como forma inicial de potencializar, salvaguardar, sanar y empoderar a todos los niños, jóvenes y adultos de todo el país, para que eleven su estándar de habilidades y conocimientos."
     title3    = "NUESTRAS GRANDES METAS"
-    subtitle3 = "Impactar a más de 200 mil personas, fortaleciendo sus habilidades para la vida en familia y a nivel profesional, fomentando un cambio sistémico en su entorno  y transformando su calidad de vida y su capacidad de impacto positivo."
+    subtitle3 = "Impactar a más de 200 mil personas, fortaleciendo sus habilidades para la vida en familia y a nivel profesional, fomentando un cambio sistémico en su entorno y transformando su calidad de vida y su capacidad de impacto positivo."
 
   [params.call_to_action]
     enable              = false
