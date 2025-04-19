@@ -22,7 +22,7 @@ googleAnalytics = "G-MBC1T5ET3Z"
     weight  = 4
   [[menu.nav]]
     name    = "Donar"
-    url     = "https://www.paypal.com/ncp/payment/HRXDN58Q5JLRN"
+    url     = "donate"
     weight  = 4
   [[menu.nav]]
     name    = "Contactanos"
@@ -37,8 +37,6 @@ googleAnalytics = "G-MBC1T5ET3Z"
   # Meta data
   description = "Sembrar y Crecer "
   author = "Sergio Cuervo"
-  
-  # We're using formspree.io for form handling, paste your formspree url below
   fabform  = "https://fabform.io/f/A2BntgU"
   # Contact Form
   [params.contactForm]
