@@ -73,11 +73,11 @@ googleAnalytics = "G-MBC1T5ET3Z"
   [params.texts]
     enable    = true
     title1     = "NUESTRA HISTORIA"
-    subtitle1  = "Este desafío se originó desde nuestra infancia, como la de muchos niños en Colombia crecimos en entornos de carencia, llenos de microviolencias y falta de oportunidades. Contra todo pronóstico supimos aprovechar cada oportunidad por mínima que fuera y hemos, a lo largo de nuestras vidas, llevado luz, esperanza y resiliencia a muchas familias y niños. Demostrando a través de nuestras propias vivencias, que se puede tener éxito y prosperidad, por medio del autoaprendizaje y que este puede ser tan efectivo como las aulas de clases."
+    subtitle1  = "Aunque Llevamos más de 20 años impactando vidas en todo Colombia ya en 2023 formalizamos nuestra operación como SEMBRAR Y CRECER ONG, en las instalaciones de la finca Villa María ubicada en la vereda San Andrés de mesa Cundinamarca, impactando a CIENTOS de niños, adultos y adultos mayores, de todo el país, a través de nuestra escuela EmpoderArte Y nuestros planes de voluntariado."
     title2    = "NUESTRO PROPÓSITO"
-    subtitle2 = "Empoderar a nuestros niños diseñando con ellos rutas vocacionales efectivas, que los lleven a identificar sus habilidades y que, por medio del autoaprendizaje, puedan desarrollar su pasión y volverla sostenible."
-    title3    = "NUESTRA PROYECCIÓN"
-    subtitle3 = "Planeamos crear rutas de autoeducación innovadoras y disruptivas, capaces de identificar y fortalecer las habilidades subvaloradas de nuestro niños y que ellos crean en su potencial."
+    subtitle2 = "Nuestro gran propósito  es seguir creando espacios sanos, competitivos y confiables para las personas impactadas, partiendo desde la ruta del arte y las nuevas tecnologías como forma inicial de potencializar, salvaguardar, Sanar y Empoderar a todos los niños, jóvenes  y adultos de todo el país, para que eleven su estandar habilidades y conocimientos."
+    title3    = "NUESTRAS GRANDES METAS"
+    subtitle3 = "Impactar a más de 200 mil personas, fortaleciendo sus habilidades para la vida en familia y a nivel profesional, fomentando un cambio sistémico en su entorno  y transformando su calidad de vida y su capacidad de impacto positivo."
 
   [params.call_to_action]
     enable              = false
