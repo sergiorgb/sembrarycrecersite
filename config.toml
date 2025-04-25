@@ -25,6 +25,10 @@ googleAnalytics = "G-MBC1T5ET3Z"
     url     = "donate"
     weight  = 4
   [[menu.nav]]
+    name    = "Transparencia"
+    url     = "transparency"
+    weight  = 4
+  [[menu.nav]]
     name    = "Contactanos"
     url     = "contact"
     weight  = 5
