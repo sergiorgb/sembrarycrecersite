@@ -1,11 +1,10 @@
 {{ define "main" }}
 
 <section class="site-blog details">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
         <article class="site-blog-details">
-
           <style>
             .black {
               color: black;
@@ -15,12 +14,15 @@
             p {
                 color: black;
             }
+            .container-fluid {
+              padding: 0;
+              margin: 0;
+              max-width: 100%;
+            }
           </style>
-            <div class="black">
+          <div class="black">
             {{ .Content }}
-            </div>
-
-          
+          </div>
         </article>
       </div>
     </div>
