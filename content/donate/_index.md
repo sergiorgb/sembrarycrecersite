@@ -1,10 +1,9 @@
 ---
-
 date: 2025-04-19T11:07:08-05:00
 ---
 
 {{< rawhtml >}}
-<div style="display: flex; justify-content: flex-start; align-items: flex-start; gap: 40px; flex-wrap: wrap;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap-reverse;">
   <!-- Columna izquierda: QR y Paypal -->
   <div style="display: flex; flex-direction: column; gap: 40px; min-width: 220px; align-items: center;">
     <div style="text-align: center;">
