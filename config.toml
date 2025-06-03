@@ -41,7 +41,7 @@ googleAnalytics = "G-MBC1T5ET3Z"
   # Meta data
   description = "Sembrar y Crecer "
   author = "Sergio Cuervo"
-  fabform  = "https://fabform.io/f/A2BntgU"
+  fabform  = "https://fabform.io/f/sCvLzvx"
   # Contact Form
   [params.contactForm]
     placeholder_first_name        = "Nombre"
