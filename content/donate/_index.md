@@ -3,7 +3,13 @@ date: 2025-04-19T11:07:08-05:00
 ---
 
 {{< rawhtml >}}
-<div style="display: flex; justify-content: center; align-items: center; gap: 80px; flex-wrap: wrap-reverse; margin: 0 20px 20px 20px;">
+<style>
+.site-blog-details {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+</style>
+<div style="display: flex; justify-content: center; align-items: center; gap: 130px; flex-wrap: wrap-reverse; margin: -40px 20px 20px 20px;">
   <!-- Columna izquierda: QR y Paypal -->
   <div style="display: flex; flex-direction: column; gap: 60px; min-width: 220px; align-items: center;">
     <div style="text-align: center;">
