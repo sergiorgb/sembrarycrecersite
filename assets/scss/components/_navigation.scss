@@ -87,3 +87,28 @@
     }
   }
 }
+
+.transparencia-bar {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  z-index: 1020;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  p {
+    color: #000;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+  }
+  a {
+    color: #f37b4a;
+    text-decoration: underline;
+    word-break: break-word;
+  }
+  @include mobile {
+    p {
+      font-size: 0.95rem;
+      padding: 0.5rem 0.3rem;
+    }
+  }
+}

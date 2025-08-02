@@ -1,49 +1,64 @@
-<nav class="navbar navbar-expand-lg site-navigation" style="margin-left: auto; margin-right: auto; text-align: ;">
-  <div class="container">
-    <a class="navbar" href="{{ .Site.BaseURL }}">
-      <img src="{{ "images/logo.png" | absURL }}" alt="logo" />
-    </a>
-    <button
-      class="navbar-toggler collapsed"
-      type="button"
-      data-toggle="collapse"
-      data-target="#sitenavbar"
-    >
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
+<div class="">
+  <nav class="navbar navbar-expand-lg site-navigation">
+    <div class="container">
+      <a class="navbar" href="{{ .Site.BaseURL | relLangURL }}">
+        <img src="{{ "images/logo.png" | absURL }}" alt="logo" style="margin-top: auto; margin-bottom: auto; margin-top: 15px;" />
+      </a>
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#sitenavbar"
+      >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="sitenavbar">
-      <ul class="navbar-nav ml-auto main-nav">
-        {{$menu := (.Site.Menus.nav)}} 
-        {{$len := (len $menu)}} 
-        {{ range $index, $element := $menu }} 
-          {{ if eq (add $index 1) $len }}
-          <li class="nav-item">
+      <div class="collapse navbar-collapse" id="sitenavbar">
+        <ul class="navbar-nav ml-auto main-nav">
+          {{$menu := (.Site.Menus.nav)}} 
+          {{$len := (len $menu)}} 
+          {{ range $index, $element := $menu }}
+            {{ if eq (add $index 1) $len }}
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-sm btn-primary btn-sm-rounded"
+                  href="{{ .URL | relLangURL | absURL }}"
+                >
+                  <span class="btn-area">
+                    <span data-text="{{ i18n .Name }}">{{ i18n .Name }}</span>
+                  </span>
+                </a>
+              </li>
+            {{ else }}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ .URL | relLangURL | absURL }}">{{ i18n .Name }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+          {{ if hugo.IsMultilingual }}
+          <li class="nav-item dropdown">
             <a
-              class="nav-link btn btn-sm btn-primary btn-sm-rounded"
-              href="{{ .URL | absURL }}"
-            >
-              <span class="btn-area">
-                <span data-text="{{ .Name }}">
-                  {{ .Name }}
-                </span>
-              </span>
+              class="nav-link dropdown-toggle d-flex align-items-center justify-content-center"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="background: none; border: none; box-shadow: none; color: #000; width: auto; height: auto; font-size: auto; margin-top: -2px;">
+              {{ T "languageSwitcher" }}
             </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
+              {{ range $.Site.Home.AllTranslations }}
+                <a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+              {{ end }}
+            </div>
           </li>
-          {{ else }}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | absURL }}"
-              >{{ .Name }}</a>
-          </li>
-          {{ end }} 
-        {{ end }}
+          {{ end }}
         </ul>
+      </div>
     </div>
-
-  </div>
-</nav>
-<div class="container navbar navbar-expand-lg " style="width: 100%; text-align: center;">
-<p style="color: black; margin-right: auto; margin-left: auto; margin-top: 130px;">Revisa nuestro nuevo reporte de sostenibilidad <a href="/PRESENTACION E INFORME DE GESTION 2024.pdf"> PRESENTACION E INFORME DE GESTION 2024</a></p>    
+  </nav>
 </div>

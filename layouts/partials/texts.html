@@ -4,33 +4,36 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
+          <div style="margin-top: -80px;"></div>
+          <h4>{{ i18n "sustainability_report" }}<br>
+            <a href="/PRESENTACION E INFORME DE GESTION 2024.pdf">{{ i18n "report_link" }}</a>
+          </h4>
+          <br><br>
           <div class="section-title">
-            <h2>{{ .title1 }}</h2>
+            <h2>{{ i18n "title1" }}</h2>
             <div class="section-title">
-            <p>{{ .subtitle1 }}</p>
-            <img src="{{`/images/index/1.jpg` | absURL}}" class="img-fluid">
+              <p>{{ i18n "subtitle1" }}</p>
+              <img src="{{`/images/index/1.jpg` | absURL}}" class="img-fluid">
             </div>
           </div>
-
           <div class="section-title">
-            <h2>{{ .title2 }}</h2>
-            <p>{{ .subtitle2 }}</p>
+            <h2>{{ i18n "title2" }}</h2>
+            <p>{{ i18n "subtitle2" }}</p>
             <img src="{{`/images/index/2.jpg` | absURL}}" class="img-fluid">
           </div>
           <div class="section-title">
-            <h2>{{ .title3 }}</h2>
-            <p>{{ .subtitle3 }}</p>
+            <h2>{{ i18n "title3" }}</h2>
+            <p>{{ i18n "subtitle3" }}</p>
             <img src="{{`/images/index/3.jpg` | absURL}}" class="img-fluid">
           </div>
           <div class="section-title">
-            <h2>{{ .title4 }}</h2>
-            <p>{{ .subtitle4 }}</p>
+            <h2>{{ i18n "title4" }}</h2>
+            <p>{{ i18n "subtitle4" }}</p>
             <img src="{{`/images/index/4.jpg` | absURL}}" class="img-fluid">
           </div>
         </div>
-        {{ end }}
-
       </div>
     </div>
   </section>
   {{ end }}
+{{ end }}

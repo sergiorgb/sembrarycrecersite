@@ -8,7 +8,7 @@ Política de Privacidad
 En Sembrar Y Crecer ONG (en adelante, "Nosotros"), respetamos y protegemos la privacidad de los datos personales de nuestros usuarios, clientes, y cualquier persona que nos confíe su información. Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos y protegemos tus datos personales, de conformidad con la normatividad legal vigente, en particular la Ley 1581 de 2012 y el Decreto 1074 de 2015 en Colombia.
 
 1. Responsable del Tratamiento de Datos
-Somos responsables del tratamiento de tus datos personales. Nuestra razón social es [Nombre de tu ONG/empresa] con NIT [NIT de la organización]. Puedes contactarnos a través de los siguientes medios:
+Somos responsables del tratamiento de tus datos personales. Nuestra razón social es SEMBRAR Y CRECER ONG con NIT 901.685.915-1. Puedes contactarnos a través de los siguientes medios:
 
 Correo electrónico: Sembrarycrecer1@gmail.com
 

@@ -6,9 +6,9 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <div class="site-hero-content text-center">
-            <h6>{{ .tagline }}</h6>
+            <h6>{{ lang.Translate "banner_tagline" }}</h6>
             <h1>
-              {{ .heading }}
+              {{ lang.Translate "banner_heading" }}
             </h1>
           </div>
         </div>
@@ -18,6 +18,7 @@
       <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
     </a>
   </section>
+</div>
   {{ "<!-- Site Hero End -->" | safeHTML }}
   {{ end }}
 {{ end }}

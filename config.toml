@@ -1,35 +1,54 @@
 baseURL       = "https://sembrarycrecer.org/"
-languageCode  = "es-CO"
 title         = "Sembrar y Crecer | Fundación"
 theme         = "roxo-hugo"
 summarylength = 25
 googleAnalytics = "G-MBC1T5ET3Z"
 
+languageCode  = "es"
+defaultContentLanguage = 'es'
+[languages]
+  [languages.es]
+    languageCode = 'es-CO'
+    languageName = 'Español'
+    title = 'Sembrar Y Crecer'
+    weight = 1
+    [languages.es.params.banner]
+      enable = true
+      background_image = "/images/backgrounds/hero-background.jpg"
+
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Sembrar Y Crecer'
+    weight = 2
+    [languages.en.params.banner]
+      enable = true
+      background_image = "/images/backgrounds/hero-background.jpg"
 # Site Menus
 [menu]
   # Navbar Menus
   [[menu.nav]]
-    name    = "Home"
-    url     = ""
+    name    = "menu_home"
+    url     = ".."
     weight  = 1
   [[menu.nav]]
-    name    = "Blog"
+    name    = "menu_blog"
     url     = "blog"
     weight  = 4
   [[menu.nav]]
-    name    = "Privacidad"
+    name    = "menu_privacy"
     url     = "pvpolicy"
     weight  = 4
   [[menu.nav]]
-    name    = "Donar"
+    name    = "menu_donate"
     url     = "donate"
     weight  = 4
   [[menu.nav]]
-    name    = "Transparencia"
+    name    = "menu_transparency"
     url     = "transparency"
     weight  = 4
   [[menu.nav]]
-    name    = "Contactanos"
+    name    = "menu_contact"
     url     = "contact"
     weight  = 5
 

@@ -1,9 +1,22 @@
 baseURL       = "https://sembrarycrecer.org/"
-languageCode  = "es-CO"
 title         = "Sembrar y Crecer | Fundación"
 theme         = "roxo-hugo"
 summarylength = 25
 
+
+languageCode  = "es"
+defaultContentLanguage = 'es'
+[languages]
+  [languages.es]
+    languageCode = 'es-CO'
+    languageName = 'Español'
+    title = 'Sembrar Y Crecer'
+    weight = 1
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Sembrar Y Crecer'
+    weight = 2
 # Site Menus
 [menu]
   # Navbar Menus
