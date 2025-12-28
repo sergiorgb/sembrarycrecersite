@@ -1,38 +1,72 @@
 {{ with .Site.Params.texts }}
   {{ if .enable }}
-  <section class="site-project" id="project">
+
+  <!-- Report Banner -->
+  <section class="report-banner">
     <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <div style="margin-top: -80px;"></div>
-          <h4>{{ i18n "sustainability_report" }}<br>
-            <a href="/PRESENTACION E INFORME DE GESTION 2024.pdf">{{ i18n "report_link" }}</a>
-          </h4>
-          <br><br>
-          <div class="section-title">
+      <div class="report-banner-content">
+        <h4>{{ i18n "sustainability_report" }}</h4>
+        <a href="/PRESENTACION E INFORME DE GESTION 2024.pdf" class="report-link">{{ i18n "report_link" }}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Sections -->
+  <section class="home-content">
+    <div class="container">
+
+      <!-- Section 1 - Image Right -->
+      <div class="content-block">
+        <div class="row align-items-center">
+          <div class="col-lg-6 content-text">
             <h2>{{ i18n "title1" }}</h2>
-            <div class="section-title">
-              <p>{{ i18n "subtitle1" }}</p>
-              <img src="{{`/images/index/1.jpg` | absURL}}" class="img-fluid">
-            </div>
+            <p>{{ i18n "subtitle1" }}</p>
           </div>
-          <div class="section-title">
-            <h2>{{ i18n "title2" }}</h2>
-            <p>{{ i18n "subtitle2" }}</p>
-            <img src="{{`/images/index/2.jpg` | absURL}}" class="img-fluid">
-          </div>
-          <div class="section-title">
-            <h2>{{ i18n "title3" }}</h2>
-            <p>{{ i18n "subtitle3" }}</p>
-            <img src="{{`/images/index/3.jpg` | absURL}}" class="img-fluid">
-          </div>
-          <div class="section-title">
-            <h2>{{ i18n "title4" }}</h2>
-            <p>{{ i18n "subtitle4" }}</p>
-            <img src="{{`/images/index/4.jpg` | absURL}}" class="img-fluid">
+          <div class="col-lg-6 content-image">
+            <img src="{{`/images/index/1.jpg` | absURL}}" class="img-fluid" alt="">
           </div>
         </div>
       </div>
+
+      <!-- Section 2 - Image Left -->
+      <div class="content-block reverse">
+        <div class="row align-items-center flex-lg-row-reverse">
+          <div class="col-lg-6 content-text">
+            <h2>{{ i18n "title2" }}</h2>
+            <p>{{ i18n "subtitle2" }}</p>
+          </div>
+          <div class="col-lg-6 content-image">
+            <img src="{{`/images/index/2.jpg` | absURL}}" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3 - Image Right -->
+      <div class="content-block">
+        <div class="row align-items-center">
+          <div class="col-lg-6 content-text">
+            <h2>{{ i18n "title3" }}</h2>
+            <p>{{ i18n "subtitle3" }}</p>
+          </div>
+          <div class="col-lg-6 content-image">
+            <img src="{{`/images/index/3.jpg` | absURL}}" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 4 - Image Left -->
+      <div class="content-block reverse">
+        <div class="row align-items-center flex-lg-row-reverse">
+          <div class="col-lg-6 content-text">
+            <h2>{{ i18n "title4" }}</h2>
+            <p>{{ i18n "subtitle4" }}</p>
+          </div>
+          <div class="col-lg-6 content-image">
+            <img src="{{`/images/index/4.jpg` | absURL}}" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
   {{ end }}

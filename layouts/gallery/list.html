@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<section class="site-gallery-header">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h1>{{ .Title }}</h1>
+        <p>
+          {{ .Params.description }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-gallery">
+  <div class="container">
+    <div class="gallery-grid">
+      {{ range .Pages }}
+      <div class="gallery-item">
+          {{ with .Params.image }}
+          <div class="gallery-item-image">
+            <img src="{{ . | absURL }}" alt="{{ $.Params.caption }}">
+          </div>
+          {{ end }}
+          {{ if .Params.caption }}
+          <div class="gallery-item-caption">
+            <p>{{ .Params.caption }}</p>
+          </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
